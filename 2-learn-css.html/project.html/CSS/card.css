@@ -1,0 +1,97 @@
+
+
+body{
+    height: 3000px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.ta-c{
+    text-align: center;
+}
+.ta-r{
+    text-align: right;
+}
+
+.card{
+    width: 300px;
+    border: 1px solid #000;
+    margin: 10px;
+    display: inline-block;
+    border-radius: 10px;
+    /* overflow: hidden; */
+
+}
+
+.card-body{
+    padding: 10px;
+    text-align: center;
+}
+
+.card-title{
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+
+.card-lorem{
+    
+}
+.card-img-a{
+    width: 100%;
+    display: inline-block;
+    border-radius: 10px 10px 0 0;
+
+
+}
+
+.card-img-b{
+    width: 100%;
+    border-radius: 0 0 10px 10px;
+    
+}
+.card-top{
+    vertical-align: top;
+}
+.mb-20{
+    margin-bottom: 20px;
+}
+
+.card-btn{
+    background-color: #1b0202fd;
+    border: 1px solid #000;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 8px;
+    height: 35px;
+    display: inline-block;
+    line-height: 35px;
+    padding: 0px 20px;
+}
+.card-btn-link{
+    background-color: transparent;
+    border: 1px solid #00000000;
+    text-decoration: none;
+    color: #020000;
+    border-radius: 10px;
+    height: 40px;
+    display: inline-block;
+    line-height: 35px;
+    padding: 0px 20px;
+}
+.card-btn-half{
+    margin: 0 auto;
+    display: block;
+    width: 150px;
+    text-align: center;
+    margin-bottom: -18px;
+    /* margin: auto; */
+    /* margin-bottom: -30px; */
+    
+}
+.card-half{
+    float: right;
+
+
+}

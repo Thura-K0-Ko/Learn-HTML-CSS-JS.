@@ -1,0 +1,48 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Comme:wght@100;300;500&family=Mukta:wght@200;300;500&family=Teko:wght@500&display=swap');
+  
+  :root{
+    --normal-h: 50px;
+    --normal-fz: 14px;
+  }
+    .mb{
+        margin-bottom: 5px;
+    }
+    .btn{
+        display: inline-block;
+        text-decoration: none;
+        line-height: var(--normal-h);
+        box-sizing: border-box;
+
+        height: var(--normal-h);
+        background-color: #000000;
+        color: #ffffff;
+        border: 1px solid #000;
+        font-family: 'Comme', sans-serif;
+        font-size: var(--normal-fz);
+        /* font-family: 'Mukta', sans-serif;
+        font-family: 'Teko', sans-serif; */
+        text-transform: uppercase;
+        padding: 0px 30px;
+
+    }
+    .btn-light{
+        background-color: #ef9d9d;
+        color: #1b1a16;
+    }
+
+    .btn-primary{
+        background-color: #8bd6ddd4;
+        color: #eff302fd;
+    }
+
+    .btn-secondary{
+        background-color: #ef9d9d;
+        color: #9c90ed;
+    }
+
+    .btn-ac{
+        background-color: #ef9d9d;
+        color: #9c90ed;
+    }

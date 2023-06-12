@@ -1,0 +1,113 @@
+
+
+
+
+body{
+    height: 2000px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.card{
+    width: 300px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    margin: 10px;
+    display: inline-block;
+    vertical-align: top;
+
+}
+
+.card-body{
+    padding:  10px;
+
+}
+
+.card-title{
+    margin-bottom: 10px;
+}
+
+.card-p{
+    margin: 20px;
+}
+.ta-center{
+    text-align: center;
+}
+
+.ta-right{
+    text-align: right;
+}
+.img-width{
+    border-radius: 10px 10px 0 0;
+    width: 100%;
+}
+.img-top{
+    width: 100%;
+    display: block;
+    border-radius: 0 0 10px 10px;
+}
+.mb{
+    margin-bottom: 15px;
+    color: #8599e2;
+}
+
+.card-btn{
+    background-color: #000;
+    display: block;
+    width: 130px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 5px;
+    margin: auto;
+    margin-bottom: -15px;
+}
+
+.card-btn-float{
+  text-decoration: none;
+  border: 1px solid #000;
+  display: block;
+}
+.w-img{
+    width: 100%;
+    border-radius: 10px 10px 0  0;
+    display: block;
+}
+
+.test-card{
+    width: 300px;
+    border: 1px solid #000;
+    margin: 20px;
+    border-radius: 10px;
+}
+.link-btn{
+    display: block;
+    border: 1px solid #00000000;
+    background-color: #0033c0;
+    color: #fff;
+    border-radius: 5px;
+    width: 120px;
+    padding: 5px;
+    text-decoration: none;
+    text-align: center;
+    float: right;
+    margin-top: -15px;
+    position: relative;
+    font-size: 15px;
+    box-shadow: inset -7px 1px 10px 8px rgb(123, 101, 236);
+
+}
+.title{
+    padding: 10px;
+}
+.cd{
+    padding: 20px;
+    text-align: center;
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        :root{
+            ---bd-tb: 1px solid #78737c;
+            
+        }
+        table{
+            width: 100%;
+            /* border: 1px solid #000; */
+            border-collapse: collapse;
+            background-color: #b9abab;
+        }
+        tr{
+            background-color: #ccd0d1;
+
+        }
+        tr:nth-child(even){
+            background-color: #ffffff13;
+            
+        }
+        th{
+            border: var(---bd-tb);  
+            padding: 15px 20px;
+            background-color: #20c9f8;
+        }
+        td{
+            border: var(---bd-tb);
+            padding: 15px 20px;  
+
+        }
+        .total{
+            text-align: center;
+        }
+        
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>No</th>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Bio</th>
+                <th>Skill</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Thura Ko Ko</td>
+                <td>28</td>
+                <td>good</td>
+                <td rowspan="2">html,css,js</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Thura Ko Ko</td>
+                <td>28</td>
+                <td>good</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Thura Ko Ko</td>
+                <td>28</td>
+                <td>good</td>
+                <td>html,css,js</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Thura Ko Ko</td>
+                <td>28</td>
+                <td>good</td>
+                <td>html,css,js</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Thura Ko Ko</td>
+                <td>28</td>
+                <td>good</td>
+                <td>html,css,js</td>
+            </tr>
+            <tr>
+                <td colspan="4" class="total">Total</td>
+                <td>Thura Ko Ko</td>
+                
+            </tr>
+
+        </tbody>
+
+    </table>
+</body>
+</html>

@@ -1,0 +1,86 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Comme:wght@100;300;500&family=Mukta:wght@200;300;500&family=Teko:wght@500&display=swap');
+
+/* Star Selector */
+
+.nav-sec{
+    margin-top: 20px;
+}
+*{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 2000px;
+}
+
+.h3{
+
+}
+img{
+    width: 30px;
+    border-radius: 50%;
+    border: 2px solid rgb(176, 148, 175);
+    margin-left: 5px;
+}
+.list{
+    list-style-type: none;
+    border: 1px solid #000;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px #aca5a5;
+    width: 200px;
+    margin: 100px auto;
+    background-color: #f6f5f5f9;
+}
+.li-item{
+    border-bottom: 1px solid #000;
+    width: 100%;
+    /* margin-bottom: 5px; */
+    padding: 7px;
+}
+.li-item p{
+    font-weight: bold;
+    display:inline-block;
+}
+.li-item .position{
+    color: #e44bc8;
+}
+.position{
+
+}
+.list :last-child{
+    margin-bottom: 0px;
+    border-bottom: none;
+}
+
+
+.nav{
+    background-color: #537070;
+    width: 100%;
+}
+.nav-item{
+    display: inline-block;
+    padding: 10px;
+    
+
+}
+.nav-item:hover{
+    background-color: #8fb4b4;
+}
+.active{
+    background-color: #83ec86;
+}
+.nav-link{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: bold;
+    
+}
+.nav-item.active:hover{
+    background-color: #83ec86;
+    
+}

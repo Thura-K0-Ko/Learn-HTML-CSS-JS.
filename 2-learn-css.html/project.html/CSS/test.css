@@ -1,0 +1,79 @@
+
+
+
+body{
+    /* background-image: url(/2-learn-css.html/My-Wedding/AirBrush_20220226191727\ \(3\).jpg); */
+    /* background-size: cover; */
+    /* background-color: #d3e5e99f; */
+}
+
+.mb{
+    margin: 10px 10px;
+}
+.btn{
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 10px;
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    font-family: 'Comme', sans-serif;
+    padding: 0 30px;
+    text-transform: uppercase;
+    text-decoration: none;   
+
+}
+.bgc{
+    background-color: #adf2a4eb;
+    color: #ecac16;
+}
+.bgc-primary{
+    background-color: #e7b8b8;
+    color: #000;
+}
+.bgc-sec{
+    background-color: #525b94;
+    color: #f5efef;
+}
+.bgc:hover{
+    background-color: #9e21b2eb;
+    color: #f27a09;
+    font-size: 17px;
+
+}
+.bgc-primary:hover{
+    background-color: #0e3708eb;
+    color: #f209ea;
+}
+.bgc-sec:hover{
+    background-color: #0e3708eb;
+    color: #f209ea;
+}
+
+
+.btn-outline{
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 10px;
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    font-family: 'Comme', sans-serif;
+    padding: 0 30px;
+    text-transform: uppercase;
+    text-decoration: none;   
+
+}
+.light{
+    background-color: #ffffff00;
+    border: 1px solid #fbf8f8;
+    color: #e35b29f1;
+}
+.dark{
+    background-color: #ffffff00;
+    border: 1px solid #17c31d;
+    color: #fffffff1;
+    border-radius: 25px;
+}
